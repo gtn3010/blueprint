@@ -130,6 +130,7 @@ type OpenSCAPCustomization struct {
 	Tailoring     *OpenSCAPTailoringCustomizations     `json:"tailoring,omitempty" toml:"tailoring,omitempty"`
 	JSONTailoring *OpenSCAPJSONTailoringCustomizations `json:"json_tailoring,omitempty" toml:"json_tailoring,omitempty"`
 	PolicyID      string                               `json:"policy_id,omitempty" toml:"policy_id,omitempty"`
+	CustomRemediateScriptPath string                   `json:"custom_remediate_script_path,omitempty" toml:"custom_remediate_script_path,omitempty"`
 }
 
 type OpenSCAPTailoringCustomizations struct {
