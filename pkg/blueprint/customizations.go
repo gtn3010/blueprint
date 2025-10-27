@@ -40,6 +40,7 @@ type Customizations struct {
 	ISO                *ISOCustomization              `json:"iso,omitempty" toml:"iso,omitempty"`
 	Sshd               *SshdCustomization             `json:"sshd,omitempty" toml:"sshd,omitempty"`
 	Bootloader         *BootloaderCustomization       `json:"bootloader,omitempty" toml:"bootloader,omitempty"`
+	SELinuxStatus      string                         `json:"selinux_status,omitempty" toml:"selinux_status,omitempty"`
 }
 
 type BootloaderCustomization struct {
